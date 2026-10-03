@@ -6,6 +6,7 @@ import StateDemo from './components/StateDemo.jsx';
 import StateFunc from './components/StateFunc.jsx';
 import EffectCase from './components/EffectCase.jsx';
 import HomePage from './components/homePage.jsx';
+import Detail from './components/Detail.jsx';
 
 import { Route, Routes } from 'react-router';
 
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/list" element={<ContainerCom/>}/>
+        <Route path="/detail/:id" element={<Detail/>}/>
       </Routes>
     </>
 
