@@ -1,10 +1,11 @@
 import {Container, Row} from 'react-bootstrap'
+import { Link } from 'react-router'
+
 export default function homePAge() {
   return (
-   <Container>
-     <Row>
-       <div>homePAge</div>
-     </Row>
-   </Container>
+   <>
+   <p>Welcome to the Home Page</p>
+   <Link to="/list">List of Players</Link>
+   </>
   )
 }
