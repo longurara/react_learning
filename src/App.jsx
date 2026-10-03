@@ -6,20 +6,17 @@ import StateDemo from './components/StateDemo.jsx';
 import StateFunc from './components/StateFunc.jsx';
 import EffectCase from './components/EffectCase.jsx';
 
+import { Route, Routes } from 'react-router';
+
 function App() {
   return (
     
     <>
       <Header/>
-      <StateDemo/>
-      <hr/>
-      <StateFunc/>
-      <EffectCase/>
-      {/* <myMoney.Provider value={money}>
-        <Com3/>
-      </myMoney.Provider> */}
-      <ContainerCom/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<HomePage/>}/>
+        <Route path="/list" element={<ContainerCom/>}/>
+      </Routes>
     </>
 
   )
