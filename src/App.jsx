@@ -5,6 +5,7 @@ import ContainerCom from './components/ContainerCom.jsx';
 import StateDemo from './components/StateDemo.jsx';
 import StateFunc from './components/StateFunc.jsx';
 import EffectCase from './components/EffectCase.jsx';
+import HomePage from './components/homePage.jsx';
 
 import { Route, Routes } from 'react-router';
 
