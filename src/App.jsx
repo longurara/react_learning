@@ -6,7 +6,7 @@ import Detail from './components/Detail.jsx';
 import Contact from './components/Contact.jsx';
 import About from './components/About.jsx';
 import News from './components/News.jsx';
-import HomePage from './components/homePAge.jsx';
+import HomePage from './components/homePage.jsx';
 
 import { Route, Routes } from 'react-router';
 
