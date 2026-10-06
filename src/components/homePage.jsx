@@ -54,9 +54,9 @@ export default function HomePage() {
                 onChange={(e) => setFormData({ ...formData, major: e.target.value })}
               >
                 <option>Open this select menu</option>
-                <option value="1">SE</option>
-                <option value="2">IA</option>
-                <option value="3">AI</option>
+                <option value="SE">SE</option>
+                <option value="IA">IA</option>
+                <option value="AI">AI</option>
               </Form.Select>
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
