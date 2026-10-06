@@ -6,6 +6,7 @@ import Detail from './components/Detail.jsx';
 import Contact from './components/Contact.jsx';
 import About from './components/About.jsx';
 import News from './components/News.jsx';
+import HomePage from './components/homePAge.jsx';
 
 import { Route, Routes } from 'react-router';
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/news" element={<News />} />
+        <Route path="/home" element={<HomePage />} />
       </Routes>
       <Footer />
     </>
