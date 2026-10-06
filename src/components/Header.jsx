@@ -12,9 +12,11 @@ class Header extends Component {
                     <Navbar.Collapse id="main-navigation">
                         <Nav className="ms-auto">
                             <Nav.Link as={Link} to="/" active>Home</Nav.Link>
-                            <Nav.Link as={Link} to="/list#players">Players</Nav.Link>
-                            <Nav.Link as={Link} to="/list#psg">PSG</Nav.Link>
-                            <Nav.Link as={Link} to="/#contact">Contact</Nav.Link>
+                            <Nav.Link as={Link} to="/#players">Players</Nav.Link>
+                            <Nav.Link as={Link} to="/#psg">PSG</Nav.Link>
+                            <Nav.Link as={Link} to="/news">News</Nav.Link>
+                            <Nav.Link as={Link} to="/about">About</Nav.Link>
+                            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

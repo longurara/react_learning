@@ -2,24 +2,26 @@ import './App.css'
 import Header from "./components/Header.jsx";
 import Footer from './components/Footer.jsx';
 import ContainerCom from './components/ContainerCom.jsx';
-import StateDemo from './components/StateDemo.jsx';
-import StateFunc from './components/StateFunc.jsx';
-import EffectCase from './components/EffectCase.jsx';
-import HomePage from './components/homePage.jsx';
 import Detail from './components/Detail.jsx';
+import Contact from './components/Contact.jsx';
+import About from './components/About.jsx';
+import News from './components/News.jsx';
 
 import { Route, Routes } from 'react-router';
 
 function App() {
   return (
-    
+
     <>
-      <Header/>
+      <Header />
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/list" element={<ContainerCom/>}/>
-        <Route path="/detail/:id" element={<Detail/>}/>
+        <Route path="/" element={<ContainerCom />} />
+        <Route path="/detail/:id" element={<Detail />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/news" element={<News />} />
       </Routes>
+      <Footer />
     </>
 
   )
